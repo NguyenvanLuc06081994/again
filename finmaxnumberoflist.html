@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>findmax</title>
+</head>
+<body>
+<script>
+    function finmaxoflist(n,a) {
+        let max = a[0];
+        let i = 1;
+        while (i<n){
+            if (max<a[i]){
+                max = a[i];
+            }
+            i++;
+        }
+        document.write("Max of list numbeer is:" + max);
+    }
+
+    finmaxoflist(3,[12,15,17]);
+</script>
+</body>
+</html>
